@@ -8,7 +8,7 @@ public class FibonacciSeries {
         for (int i = 0; i < n; i++) {
             result[i] = a;
             a = b;
-            b = result[i];
+            b += result[i];
         }
         return result;
 
