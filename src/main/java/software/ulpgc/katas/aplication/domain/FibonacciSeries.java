@@ -1,6 +1,6 @@
 package software.ulpgc.katas.aplication.domain;
 
-public interface FibonacciSeries {
+public class FibonacciSeries {
     public static int[] calculate(int n) {
         int[] result = new int[n];
         int a = 0;
